@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 print("=== ML CI Pipeline ===")
 
 
-X = np.array([1], [2], [3])
+X = np.array([[1], [2], [3]])
 y = np.array([2, 4, 6])
 
 
@@ -31,4 +31,3 @@ else:
     print(" VALIDATION FAILED")
     sys.exit(1)
 
-    
